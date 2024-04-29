@@ -1,0 +1,21 @@
+Items:
+  - name: Schema.org Metatag
+    href: index.md
+  - name: Basic Usage
+    href: basic-usage.md
+  - name: Help With Tokens and Fields
+    href: help-with-tokens-and-fields.md
+  - name: Example Article setup
+    href: example-article-setup.md
+  - name: Pivot
+    href: pivot.md
+  - name: JSON-LD, Microdata or RDFa?
+    href: json-ld-microdata-or-rdfa.md
+  - name: Schema.org Coverage
+    href: schemaorg-coverage.md
+  - name: Developer Instructions for 8.1 Branch
+    href: developer-instructions-for-81-branch.md
+  - name: Developer Instructions for 8.2 Branch
+    href: developer-instructions-for-82-branch.md
+  - name: Performance Considerations
+    href: performance-considerations.md
