@@ -1,5 +1,4 @@
-Pivot
-=====
+# Pivot
 
 Last [updated](/node/2945949/discuss) on
 

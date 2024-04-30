@@ -1,5 +1,4 @@
-Example Article setup
-=====================
+# Example Article setup
 
 Last [updated](/node/3142421/discuss) on
 

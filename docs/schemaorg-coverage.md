@@ -1,5 +1,4 @@
-Schema.org Coverage
-===================
+# Schema.org Coverage
 
 Last [updated](/node/2942670/discuss) on
 

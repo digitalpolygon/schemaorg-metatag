@@ -1,5 +1,4 @@
-Schema.org Metatag
-==================
+# Schema.org Metatag
 
 [Schema.org Metatag](https://www.drupal.org/project/schema_metatag) for Drupal 8 & 9 extends the [Metatag module](https://www.drupal.org/project/metatag) to display structured data as JSON-LD in the head of web pages. Either hard-code properties or identify patterns using token replacements. Using the override system in Metatag module you can define default structured data values for all content types, override the global content defaults for a particular content type, or even override everything else on an individual node to provide specific values for that node.
 

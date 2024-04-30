@@ -1,5 +1,4 @@
-Performance Considerations
-==========================
+# Performance Considerations
 
 Last [updated](/node/3024933/discuss) on
 

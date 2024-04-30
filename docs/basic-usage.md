@@ -1,5 +1,4 @@
-Basic Usage
-===========
+# Basic Usage
 
 Last [updated](/node/2942674/discuss) on
 

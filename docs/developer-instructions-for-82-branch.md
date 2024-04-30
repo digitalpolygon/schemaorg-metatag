@@ -1,5 +1,4 @@
-Developer Instructions for 8.2 Branch
-=====================================
+# Developer Instructions for 8.2 Branch
 
 Last [updated](/node/3170637/discuss) on
 

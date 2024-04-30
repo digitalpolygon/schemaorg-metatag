@@ -1,5 +1,4 @@
-JSON-LD, Microdata or RDFa?
-===========================
+# JSON-LD, Microdata or RDFa?
 
 Last [updated](/node/2946678/discuss) on
 
