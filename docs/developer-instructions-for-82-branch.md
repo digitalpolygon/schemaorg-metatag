@@ -1,8 +1,6 @@
 # Developer Instructions for 8.2 Branch
 
-Last [updated](/node/3170637/discuss) on
-
-29 February 2024
+Last [updated](/node/3170637/discuss) on 29 February 2024
 
 [](#s-extending-an-existing-schema "Permalink to this headline")Extending an existing schema
 --------------------------------------------------------------------------------------------
