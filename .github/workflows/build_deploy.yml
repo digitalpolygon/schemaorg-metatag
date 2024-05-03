@@ -48,6 +48,12 @@ jobs:
         run: |
           terminus self:plugin:install terminus-build-tools-plugin
 
+      - name: Checkout source branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+
       # Deploy to Pantheon Downstream sites
       - name: Deploy to Pantheon
         env:
