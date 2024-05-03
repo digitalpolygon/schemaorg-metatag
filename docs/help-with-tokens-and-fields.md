@@ -1,8 +1,6 @@
 # Help With Tokens and Fields
 
-Last [updated](/node/2950932/discuss) on
-
-26 May 2020
+Last [updated](/node/2950932/discuss) on 26 May 2020 - Updated by Adrian to make it clear.
 
 ### [](#s-working-with-tokens "Permalink to this headline")Working with tokens
 
