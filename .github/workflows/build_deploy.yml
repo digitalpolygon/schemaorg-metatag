@@ -59,4 +59,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          echo "$SSH_PRIVATE_KEY" > ../private.key
+          chmod 600 ../private.key
+          eval `ssh-agent -s`
+          ssh-add ../private.key
+          git config --global --add safe.directory /__w/leaf-home-mapletree/leaf-home-mapletree
+          ssh-add -L | ssh-keygen -l -E md5 -f - | awk '{print substr($2,5)}'
           .github/dev-multidev.sh
