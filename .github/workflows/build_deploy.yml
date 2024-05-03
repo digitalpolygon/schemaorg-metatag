@@ -44,39 +44,9 @@ jobs:
         with:
           pantheon-machine-token: ${{ secrets.TERMINUS_TOKEN }}
 
-      - name: Checkout source branch
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref || github.ref_name }}
-          fetch-depth: 0
-
       - name: Install Terminus Build Tools
         run: |
           terminus self:plugin:install terminus-build-tools-plugin
-
-      - name: setup-environment-vars
-        run: |
-          export CI_BRANCH=`curl -u "${GITHUB_OWNER}:${GITHUB_TOKEN}" \
-            -H "Accept: application/vnd.github.groot-preview+json" \
-            "https://api.github.com/repos/${CI_PROJECT_NAME}/commits/${COMMIT_SHA}/pulls" | \
-            python3 -c "import sys, json; print(json.load(sys.stdin)[0]['head']['ref'])"`
-
-      - name: Avoid GitHub rate limit for Composer
-        run: |
-          composer config -g github-oauth.github.com $GITHUB_TOKEN
-
-      - name: Add HTTP basic auth credentials
-        run: |
-          echo '${{ secrets.COMPOSER_AUTH_JSON }}' > $GITHUB_WORKSPACE/auth.json
-
-      - name: Build composer dependencies
-        run: |
-          composer install --no-dev --no-interaction --optimize-autoloader
-
-      - name: Configure Git config
-        run: |
-          git config --global user.name "Adrian Morelos"
-          git config --global user.email "adrian@digitalpolygon.com"
 
       # Deploy to Pantheon Downstream sites
       - name: Deploy to Pantheon
@@ -87,6 +57,5 @@ jobs:
           chmod 600 ../private.key
           eval `ssh-agent -s`
           ssh-add ../private.key
-          git config --global --add safe.directory /__w/leaf-home-mapletree/leaf-home-mapletree
           ssh-add -L | ssh-keygen -l -E md5 -f - | awk '{print substr($2,5)}'
           ./.github/deploy/pantheon/dev-multidev
