@@ -137,4 +137,4 @@ The `composer.json` file should be kept normalized using `ergebnis/composer-norm
 
 ## Credits
 
-The initial development was by Karen Stevenson](https://www.drupal.org/u/karens).
+The initial development was by [Karen Stevenson](https://www.drupal.org/u/karens).
