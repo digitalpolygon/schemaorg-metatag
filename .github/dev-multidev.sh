@@ -40,7 +40,7 @@ set -e
 
 if [[ -z "$TERMINUS_ENV_EXISTS" ]]
   then
-    echo "Site $TERMINUS_SITE does not have a $TERMINUS_ENV multidev. Creating multidev from $CREATE_MDS_FROM..."
+    echo "Site $TERMINUS_SITE does not have a $TERMINUS_ENV multidev..."
   else
     echo "Syncing documentation $TERMINUS_ENV on $TERMINUS_SITE"
     # Run The migration deploy.
