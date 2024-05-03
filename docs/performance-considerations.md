@@ -1,8 +1,6 @@
 # Performance Considerations
 
-Last [updated](/node/3024933/discuss) on
-
-10 January 2019
+Last [updated](/node/3024933/discuss) on 10 January 2019 - Updated By Adrian
 
 Follow these simple steps and your site performance when using schema\_metatag module should be fine:
 
