@@ -44,5 +44,5 @@ if [[ -z "$TERMINUS_ENV_EXISTS" ]]
   else
     echo "Syncing documentation $TERMINUS_ENV on $TERMINUS_SITE"
     # Run The migration deploy.
-    terminus drush "$TERMINUS_SITE.$TERMINUS_ENV" -- migrate:import schemaorg_metata -y;
+    terminus drush "$TERMINUS_SITE.$TERMINUS_ENV" -- migrate:import schemaorg_metatag -y;
 fi
