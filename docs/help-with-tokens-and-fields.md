@@ -1,10 +1,10 @@
-# Help With Tokens and Fields
+# Help With Tokens and Fields LIVE EDIT
 
 Last [updated](/node/2950932/discuss) on 26 May 2020 - Updated by Adrian to make it clear.
 
 ### [](#s-working-with-tokens "Permalink to this headline")Working with tokens
 
-The key to getting the desired output often centers around finding the right tokens to use. Most tokens are a combination of the entity type and field, sometimes "chained" to drill into related content or to float a specific sub value to the top.
+LIVE The key to getting the desired output often centers around finding the right tokens to use. Most tokens are a combination of the entity type and field, sometimes "chained" to drill into related content or to float a specific sub value to the top.
 
 If you have trouble getting a token value that works, note that on the "Manage Display" tab of each content type you can select the types of displays you want to manage. One of those types is "Token". Check the box to expose the token display, and you can use that tab to control the way each field's token will look. Note that this controls the look of each field's token no matter where the token is used. So if you are also using tokens on Pathauto, for instance, be sure your changes work correctly in both places.
 
